@@ -1,0 +1,159 @@
+# Visual Studio Code configuration files.
+.vscode/
+
+# Byte-compiled and DLL files.
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packaging/Distribution generated files.
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit testing/Reports for coverage files.
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# PyInstaller files.
+*.manifest
+*.spec
+
+# Django utils files.
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask utils files.
+instance/
+.webassets-cache
+
+# Scrapy generared files.
+.scrapy
+
+# Logs auto-generated files.
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Sphinx documentation files.
+docs/_build/
+
+# PyBuilder files.
+.pybuilder/
+target/
+
+# Jupyter Notebook auto-generated files.
+.ipynb_checkpoints
+
+# IPython files.
+profile_default/
+ipython_config.py
+
+# pyenv files.
+.python-version
+
+# Python virtualenv files.
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ss]cripts
+pyvenv.cfg
+pip-selfcheck.json
+
+# Custom directory to find packages on pyflow [source = https://github.com/David-OConnor/pyflow]
+__pypackages__/
+
+# Celery files.
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files.
+*.sage.py
+
+# Type of environment files and directories.
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings files.
+.spyderproject
+.spyproject
+
+# mypy cache and auto-generated files.
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker directory.
+.pyre/
+
+# pytype static type analyzer directory.
+.pytype/
+
+# Rope project settings files.
+.ropeproject
+
+# mkdocs documentation files.
+/site
+
+# Translations files.
+*.mo
+*.pot
+
+# Cython debug symbols directory.
+cython_debug/
+
+# C extensions files.
+*.so
+
+# Pycharm files.
+.idea
+
+# macOS X auto-generated files.
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files auto-generated when a deleted file was opened by another resource.
+.fuse_hidden*
+
+# Files that are created when an open file is removed but is still being accessed.
+.nfs*
+
+# Type of swap files generated.
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]

@@ -1,0 +1,22 @@
+version: '3.9'
+
+networks:
+    django-hex-arch-network:
+
+volumes:
+    django-hex-arch-volume:
+
+services:
+    django-hex-arch-db-service:
+        image: postgres:latest
+        container_name: django-hex-arch-db-service
+        networks:
+            - django-hex-arch-network
+        volumes:
+            - django-hex-arch-volume:/var/lib/postgresql/data
+        ports:
+            - "${POSTGRES_DB_PORT}:5432"
+        environment:
+            - POSTGRES_USER=${POSTGRES_USER}
+            - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+            - POSTGRES_DB=${POSTGRES_DB}
