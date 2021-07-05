@@ -18,3 +18,6 @@ The steps to run this project are the following.
 Create the database.
 <br></br>
 First
+
+
+Configure
